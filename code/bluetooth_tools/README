@@ -1,0 +1,6 @@
+conf.py:
+
+	conf.py [port name] [NAME]
+	ex: conf.py /dev/ttyUSB0 1234
+
+	change the device NAME of bluetooth serial device through [port name]
