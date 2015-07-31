@@ -82,8 +82,8 @@ if __name__ == "__main__":
         if(cmd_buff[-1] == ' '):
             cmd = cmd_buff.strip()
             cmd_buff = ''
-            lcm.line2_msg = cmd
             if(operations.get(cmd)):
                 operations.get(cmd)()
+                lcm.line2_msg = cmd
     ser.close()
 
